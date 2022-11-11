@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+svg {
+  height: 10px;
+  width: 10px;  
+}
+
+.table-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.chevron-up {
+  transform: rotate(180deg);
+}
