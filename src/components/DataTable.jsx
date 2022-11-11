@@ -31,11 +31,12 @@ function filter (rows) {
   ); 
 }
 
+// function to filter with sort rows
 const sortFilter = () => sort(filter(rows))
 
   return (
-    <div>
-      <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
+    <div className="main">
+      <input placeholder="Search" type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
       <table className="table">
         <thead>
           <tr>
