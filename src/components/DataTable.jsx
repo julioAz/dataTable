@@ -81,7 +81,7 @@ const sortFilter = () => sort(filter(rows))
         {sortFilter().length > count && (
           <div>
             <button onClick={() => setCount(prev => prev + 15)}>
-              More
+              Load More
             </button>
           </div>
         )}
